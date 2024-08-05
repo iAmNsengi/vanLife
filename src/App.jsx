@@ -1,10 +1,20 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
 function App() {
   return (
-    <>
-      <div>I am Nsengi</div>
-    </>
+    <BrowserRouter>
+      <header>
+        <Link to={"/"}>#VANLIFE</Link>
+        <nav></nav>
+      </header>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
