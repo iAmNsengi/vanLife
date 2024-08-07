@@ -40,7 +40,7 @@ header .site-logo {
   font-size: 25px;
 }
 
-a.active-link {
+.active-link {
   font-weight: bold;
   text-decoration: underline;
   color: #161616;
