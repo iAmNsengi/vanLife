@@ -6,6 +6,7 @@ export default function Header() {
     textDecoration: "underline",
     color: "#161616",
   };
+
   return (
     <header>
       <Link className="site-logo" to="/">
